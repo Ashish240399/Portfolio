@@ -1,0 +1,53 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 700;;
+}
+.contact-mail form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+form .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 1px solid ;
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea {
+    height: 4rem !important;
+}
+form .button{
+    padding:10px 20px;
+    margin-top: 10px;
+    width:100px;
+    background-color: aquamarine;
+    border:none;
+    font-size: 20px;
+    border-radius: 6px;
+}
+form .button:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form .user{
+        width: 15rem;
+        height: 2rem;
+        padding: 0.3em;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    width:68%;
+    padding:12px;
+    position:fixed;
+    align-items: center;
+    
+    background-color: white;
+}
+.menu{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+}
+.menu-icon{
+    font-size: 23px;
+}
+.mobile-menu{
+    display: none;
+}
+.web-menu{
+    display: flex;
+}
+.logo{
+    font-size: 36px;
+    color: rgb(85, 26, 139);
+    font-weight: 800;
+    font-family: 'Water Brush',
+    cursive;
+}
+@media only screen and (max-width:720px){
+    .header{
+        width:90%;
+        margin-bottom: 30%;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+    .logo{
+        font-size: 24px;
+    }
+}
