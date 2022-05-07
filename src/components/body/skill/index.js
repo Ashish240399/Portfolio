@@ -7,6 +7,7 @@ function Skill() {
   const data=SkillsData;
   return (
     <div className='skills'>
+      
       <Separator/>
       <label className='section-title'>Skills</label>
       <div className='skills-container'>
@@ -21,6 +22,7 @@ function Skill() {
           </div>
         ))}
       </div>
+      <div id="Projects"></div>
     </div>
   )
 }

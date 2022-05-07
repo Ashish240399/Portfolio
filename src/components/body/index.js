@@ -1,4 +1,5 @@
 import React from 'react'
+import Separator from '../common/separator';
 import About from './about';
 import "./body.css";
 import Contact from './contact';
@@ -8,7 +9,7 @@ import Skill from './skill';
 function Body() {
   return (
     <div className='body'>
-        <section id='Home'>
+        {/* <section id='Home'>
             <About/>
         </section>
         <section id='About'>
@@ -22,7 +23,12 @@ function Body() {
         </section>
         <section id='Contact'>
             <Contact/>
-        </section>
+        </section> */}
+        <div id="Home"><About/></div>
+        <div><Mine/></div>
+        <div><Skill/></div>
+        <div><Project/></div>
+        <div><Contact/></div>
     </div>
   )
 }

@@ -14,7 +14,7 @@ export const SocialData=[
     },
     {
         platform:"Twitter",
-        link:"",
+        link:"https://twitter.com/Ashish_k7797?t=LZApvzGdN6icpHrnK083ow&s=09",
         // icon:require("../../image/twitter.png")
         icon:<BsTwitter style={{fontSize:"40px",color:"rgb(29,155,240)"}}/>
     },

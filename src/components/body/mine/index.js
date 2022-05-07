@@ -3,9 +3,9 @@ import Separator from '../../common/separator'
 import "./mine.css"
 function Mine() {
   return (
-      
+   
     <div className='myabout'>
-        <Separator/>
+        <Separator id="About-bar"/>
         <label className='section-title'>About</label>
         <div className='Mine'>
             <img src={require("../../../image/photo.JPG")}></img>
@@ -14,13 +14,14 @@ function Mine() {
                 <div className='download'>
             <a download href={require("../../../image/Ashish_resume.pdf")}>
                 <i class="fi fi-rr-download"></i>
-                Download
+               Resume
             </a>
             </div>
             </div>
         </div>
-        
+        <div id="Skills"></div>
     </div>
+ 
   )
 }
 

@@ -17,7 +17,8 @@ function About() {
           <img src={require("../../../image/developer.png")} className="picture"></img>
         </div>
       </div>
-      <SocialContact/>
+      <SocialContact />
+      <div id="About"></div>
     </div>
   )
 }

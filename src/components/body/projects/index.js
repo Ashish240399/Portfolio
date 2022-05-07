@@ -14,6 +14,7 @@ function Project() {
           <ProjectCard project={project}/>
         ))}
       </div>
+      <div id="Contact"></div>
     </div>
   )
 }
