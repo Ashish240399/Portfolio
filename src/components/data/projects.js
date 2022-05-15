@@ -1,6 +1,15 @@
 export const ProjectData=[
     {
         id:1,
+        title:"Netmeds_Clone",
+        about:"This a e-commerce website from which one can buy medical essentials and medicines. It is a collaborative project and made by 6 members in just 5 days",
+        tags:["React.Js","CSS","JavaScript","MongoDB","Express","Node.Js","Material UI"],
+        demo:"https://netmeds-clone-phi.vercel.app/",
+        github:"https://github.com/Neha-251/Netmeds-Clone",
+        image:require("../../image/Netmeds.png")
+    },
+    {
+        id:2,
         title:"Udemy_Clone",
         about:"It is Learning Platform where one can purchase course and learn from them.There were 6 members in the group. In this Project I have built Home page, Login Page, Sign Up Page, Cart Page. It was completed in 5 days ",
         tags:["HTML","CSS","JavaScript"],
@@ -9,7 +18,7 @@ export const ProjectData=[
         image:require("../../image/udemy.png")
     },
     {
-        id:2,
+        id:3,
         title:"Indiamart_Clone",
         about:"It is E-Commerce website where one can purchase by his choice.There were 6 members in the group. In this Project I have built Home page, Login Page, Sign Up Page, Cart Page. It was completed in 5 days",
         tags:["HTML","CSS","JavaScript"],
