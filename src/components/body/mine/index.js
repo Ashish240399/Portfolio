@@ -12,7 +12,7 @@ function Mine() {
             <div className='details'>
                 <p>Observant and detail-oriented aspiring full-stack web developer with a specialization in MERN stack. Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to work in a collaborative and creative work environment</p>
                 <div className='download'>
-            <a download href={require("../../../image/Ashish_resume.pdf")}>
+            <a download href={require("../../../image/Ashish-Resume.pdf")}>
                 <i class="fi fi-rr-download"></i>
                Resume
             </a>

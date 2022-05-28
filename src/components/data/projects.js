@@ -2,7 +2,7 @@ export const ProjectData=[
     {
         id:1,
         title:"Netmeds_Clone",
-        about:"This a e-commerce website from which one can buy medical essentials and medicines. It is a collaborative project and made by 6 members in just 5 days",
+        about:"This is a Health care product delivery website. Key features of Project: Every Data getting stored on the Backend, After Login showing the user name on the navbar and user details on the user-details page. Sorting in Product Page: Only current users' data will be shown everywhere. After payment, the items the user bought will be deleted from the backend. Logout feature.",
         tags:["React.Js","CSS","JavaScript","MongoDB","Express","Node.Js","Material UI"],
         demo:"https://netmeds-clone-phi.vercel.app/",
         github:"https://github.com/Neha-251/Netmeds-Clone",
